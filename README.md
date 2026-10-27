@@ -1,9 +1,17 @@
 # ⚡ HyperBridge: Vivo X300 Ultra ⇄ Xiaomi Watch 5
 
-[![Platform](https://img.shields.io/badge/Platform-Wear_OS_|_Android_15-00F0FF?style=for-the-badge&logo=android)](https://github.com/)
-[![Watch](https://img.shields.io/badge/Watch-Xiaomi_Watch_5-FF6D00?style=for-the-badge&logo=xiaomi)](https://github.com/)
-[![Phone](https://img.shields.io/badge/Phone-Vivo_X300_Ultra-00E676?style=for-the-badge&logo=vivo)](https://github.com/)
+[![Platform](https://img.shields.io/badge/Platform-Wear_OS_|_Android_15-00F0FF?style=for-the-badge&logo=android)](https://github.com/kaiser10669-svg/hyperbridge)
+[![Watch](https://img.shields.io/badge/Watch-Xiaomi_Watch_5-FF6D00?style=for-the-badge&logo=xiaomi)](https://github.com/kaiser10669-svg/hyperbridge)
+[![Phone](https://img.shields.io/badge/Phone-Vivo_X300_Ultra-00E676?style=for-the-badge&logo=vivo)](https://github.com/kaiser10669-svg/hyperbridge)
 [![License](https://img.shields.io/badge/License-MIT-blueviolet?style=for-the-badge)](LICENSE)
+
+> [!WARNING]
+> ### ⚠️ Отказ от ответственности (Legal & Medical Disclaimer)
+> **Программное обеспечение предоставляется «КАК ЕСТЬ» (AS IS) исключительно в исследовательских и любительских целях.**
+> 1. **Не медицинский прибор**: Приложение HyperBridge, графики и биометрия (пульс, ЭКГ, шаги, кислород SpO2, температура кожи) носят исключительно ознакомительный характер. Они не являются медицинскими данными и не могут использоваться для диагностики, лечения или оценки состояния здоровья.
+> 2. **Отсутствие гарантий доставки пушей**: Авторы и разработчики **НЕ несут ответственности** за любые задержки, пропуски или недоставку критических уведомлений (банковские операции, SMS двухфакторной аутентификации, охранные системы, экстренные вызовы).
+> 3. **Батарея и системные ресурсы**: Непрерывная работа сокетов и опрос сенсоров могут приводить к повышенному потреблению энергии аккумулятора.
+> 4. **Самостоятельная ответственность**: Все операции с ADB (`appops`, `pm grant`, отключение Doze) и установка сторонних APK выполняются пользователем добровольно и под личную ответственность. Разработчики не отвечают за возможные системные сбои, перегрев или изменения в поведении прошивок HyperOS и OriginOS.
 
 **HyperBridge** — высокотехнологичный независимый мост прямого сопряжения флагманского смартфона **Vivo X300 Ultra** (OriginOS 5 / Android 15) и смарт-часов **Xiaomi Watch 5** (Wear OS / Xiaomi HyperOS 2.0).
 
@@ -177,7 +185,7 @@
 
 ```bash
 # Клонирование репозитория
-git clone https://github.com/kaiserdev/hyperbridge.git
+git clone https://github.com/kaiser10669-svg/hyperbridge.git
 cd hyperbridge
 
 # Автоматическая компиляция ресурсов AAPT2, Java 8, DEX D8, zipalign и apksigner
@@ -189,7 +197,7 @@ python build_all.py
 
 ## 🤝 Вклад в разработку и обратная связь
 
-Приветствуются Pull Requests и предложения по улучшению! Если у вас возникли вопросы или предложения по поддержке других моделей умных часов или смартфонов — создавайте [Issue](https://github.com/).
+Приветствуются Pull Requests и предложения по улучшению! Если у вас возникли вопросы или предложения по поддержке других моделей умных часов или смартфонов — создавайте [Issue](https://github.com/kaiser10669-svg/hyperbridge/issues).
 
 ---
 
