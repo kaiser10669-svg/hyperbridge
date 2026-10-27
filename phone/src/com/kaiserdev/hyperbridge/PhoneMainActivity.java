@@ -327,7 +327,14 @@ public class PhoneMainActivity extends Activity {
 
         rowUpdate.setOnClickListener(v -> showDialog(
                 "Обновление ПО",
-                "Установлена версия: Xiaomi HyperOS 2.0 (Wear OS)\nСборка: OS2.0.14.0.WNLCNXM\nСтатус: Установлена последняя официальная версия ПО."
+                "Установлена версия: HyperBridge v1.2.0 Stable (Сборка 2)\n" +
+                "Связка: Vivo X300 Ultra (OriginOS 5) ⇄ Xiaomi Watch 5 (Wear OS)\n\n" +
+                "Статус разрешений: 100% активны\n" +
+                "• Доступ к уведомлениям: Включен\n" +
+                "• Снятие ограничений фоновой работы: Активно\n" +
+                "• Захват звонков и контактов: Включен\n" +
+                "• Bluetooth BLE Ultra-Link: Активен\n" +
+                "• Сквозная доставка в систему часов: Активна"
         ));
 
         // Test buttons

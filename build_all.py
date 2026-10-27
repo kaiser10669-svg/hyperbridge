@@ -18,7 +18,7 @@ APKSIGNER = os.path.join(BUILD_TOOLS, "apksigner.bat")
 JAVAC = os.path.join(JAVA_HOME, "bin", "javac.exe")
 KEYSTORE = os.path.expanduser(r"~/.android/debug.keystore")
 
-BASE_DIR = r"C:\Users\kaiser\.gemini\antigravity\brain\ce73d3a2-1af3-409a-99c4-3af029a80a16\hyperbridge"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 OUT_DIR = os.path.join(BASE_DIR, "out")
 
 def run(cmd, cwd=None):
