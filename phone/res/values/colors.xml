@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Galaxy Wearable One UI Dark Theme Palette -->
+    <color name="galaxy_bg">#000000</color>
+    <color name="phone_bg">#000000</color>
+    <color name="galaxy_card">#17191C</color>
+    <color name="galaxy_card_inner">#202328</color>
+    <color name="galaxy_divider">#26292E</color>
+    
+    <!-- Samsung One UI Accents -->
+    <color name="galaxy_blue">#1E6BFF</color>
+    <color name="galaxy_blue_light">#3E82FF</color>
+    <color name="galaxy_blue_dark">#0F47B8</color>
+    <color name="galaxy_green">#2CC87A</color>
+    <color name="galaxy_coral">#FF4D6D</color>
+    <color name="galaxy_purple">#845EC2</color>
+    <color name="galaxy_amber">#FF9671</color>
+    <color name="galaxy_cyan">#00D2FC</color>
+
+    <!-- Legacy compat colors -->
+    <color name="card_bg">#17191C</color>
+    <color name="card_stroke">#26292E</color>
+    <color name="neon_green">#2CC87A</color>
+    <color name="neon_cyan">#00D2FC</color>
+    <color name="neon_yellow">#FFD600</color>
+    <color name="neon_red">#FF4D6D</color>
+    <color name="text_white">#FFFFFF</color>
+    <color name="text_muted">#8E929A</color>
+
+    <!-- Typography -->
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#8E929A</color>
+    <color name="text_tertiary">#5A5D64</color>
+    <color name="text_blue">#3E82FF</color>
+</resources>

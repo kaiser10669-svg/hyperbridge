@@ -1,0 +1,19 @@
+# Build outputs and intermediate binaries
+out/
+*.idsig
+*.class
+*.dex
+*.jar
+*.ap_
+
+# Local IDE and temporary logs
+.idea/
+.vscode/
+*.log
+*.tmp
+__pycache__/
+*.pyc
+
+# Keep release APKs
+!release/
+!release/*.apk

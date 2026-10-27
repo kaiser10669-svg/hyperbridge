@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_black"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:paddingStart="40dp"
+        android:paddingEnd="40dp"
+        android:paddingTop="44dp"
+        android:paddingBottom="52dp">
+
+        <TextView
+            android:id="@+id/tvNotifApp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Telegram"
+            android:textColor="@color/neon_cyan"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:background="@drawable/bg_card"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp" />
+
+        <TextView
+            android:id="@+id/tvNotifTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Имя отправителя"
+            android:textColor="@color/text_white"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:gravity="center" />
+
+        <TextView
+            android:id="@+id/tvNotifText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Текст входящего сообщения..."
+            android:textColor="#E0E6ED"
+            android:textSize="14sp"
+            android:layout_marginTop="8dp"
+            android:gravity="center" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="18dp">
+
+            <Button
+                android:id="@+id/btnReplyOk"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="40dp"
+                android:text="👍 ОК"
+                android:textColor="@color/text_white"
+                android:textSize="12sp"
+                android:background="@drawable/btn_cyan"
+                android:layout_marginEnd="6dp" />
+
+            <Button
+                android:id="@+id/btnReplyCall"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="40dp"
+                android:text="⏳ Позже"
+                android:textColor="@color/text_white"
+                android:textSize="12sp"
+                android:background="@drawable/btn_cyan"
+                android:layout_marginStart="6dp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnDismiss"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:text="Закрыть"
+            android:textColor="@color/text_muted"
+            android:textSize="12sp"
+            android:background="@drawable/bg_card"
+            android:layout_marginTop="10dp" />
+
+    </LinearLayout>
+</ScrollView>

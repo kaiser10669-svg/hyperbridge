@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.HyperBridge.Phone" parent="@android:style/Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/phone_bg</item>
+        <item name="android:colorBackground">@color/phone_bg</item>
+        <item name="android:textColor">@color/text_white</item>
+    </style>
+</resources>

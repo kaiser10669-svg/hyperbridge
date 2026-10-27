@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HyperBridge</string>
+    <string name="status_connected">● СВЯЗЬ АКТИВНА</string>
+    <string name="status_waiting">○ ОЖИДАНИЕ СВЯЗИ</string>
+</resources>
